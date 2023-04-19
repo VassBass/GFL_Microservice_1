@@ -1,0 +1,58 @@
+[
+  {
+    "name": "test scenario 1",
+    "site": "http://info.cern.ch",
+    "steps": [
+      {
+        "action": "clickCss",
+        "value": "body > ul > li:nth-child(1) > a"
+      },
+      {
+        "action": "sleep",
+        "value": "5"
+      },
+      {
+        "action": "clickXpath",
+        "value": "/html/body/p"
+      }
+    ]
+  },
+  {
+    "name": "proxy test 1",
+    "site": "https://tarik-systems.herokuapp.com",
+    "steps": [
+      {
+        "action": "sleep",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "name": "proxy test 2",
+    "site": "https://2ip.io/ua/",
+    "steps": [
+      {
+        "action": "sleep",
+        "value": "25"
+      }
+    ]
+  },
+  {
+    "name": "test scenario 2",
+    "site": "http://info.cern.ch",
+    "steps": [
+      {
+        "action": "clickXpath",
+        "value": "/html/body/p"
+      },
+      {
+        "action": "sleep",
+        "value": "5"
+      },
+      {
+        "action": "clickCss",
+        "value": "body > ul > li:nth-child(1) > a"
+      }
+    ]
+  }
+]
